@@ -1,0 +1,210 @@
+/*
+    Filename: style.css
+    Author: Bennett Biju Mathew
+    Contributors: Joono Chakma
+    Created: 2/03/23
+    Last Modified: 21/04/23
+    Description: This stylesheet refers to all of the pages. 
+*/
+
+/* General CSS that is used in most websites */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.text-section {
+    padding: 35px;
+    box-shadow: 0px 0px 20px 4px #888888 inset;
+    flex: 1;
+    background-color: white;
+}
+
+.button {
+    background-color: #3E78B2;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    min-width: 40px;
+    margin-top: 5px;
+} 
+
+.button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+  }
+  
+.button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+}
+
+.image-holder {
+    float: right;
+    width: 30vw;
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+/* CSS related to the navigation bar */
+.navigation {
+    text-align: right;
+    padding: 15px;
+}
+
+.navigation img {
+    float: left;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+
+.dropdown-name {
+    text-decoration: none;
+}
+
+.dropdown-name:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.dropdown span {
+    height: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 100px 100px 100px 100px;
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #24272B;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 10px;
+    min-width: 110px;
+}
+
+.dropdown-content li {
+    text-align: left;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.dropdown-content a:hover {
+    text-decoration: underline;
+}
+
+.dropdown-content a {
+    text-decoration:none;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.header {
+    background-image: url("images/background.jpeg");
+    color: white;
+}
+
+.header-text {
+    margin-bottom: 25px;
+    font-size: 2.8em;
+    text-align: center;
+}
+
+/* CSS related to the subtopics footer section of the page */
+.subtopics {
+    background-color: #4A525A;
+    color: white;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.subtopics li {
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+}
+
+.subtopics a {
+    color: white;
+}
+
+.subtopics a:hover {
+    text-decoration: underline;
+}
+
+/* CSS related to the quote text that some pages utilise.    */
+.quote {
+    padding-top: 25px;
+}
+
+.quote p, .quote h1 {
+    font: italic bold 1.2em "Cambria", serif;
+    text-align: center;
+}
+
+.quote h1 {
+    font-size: 1.8em;
+}
+
+/* CSS related to the footer section of the page */
+.footer-section {
+    height: 45px;
+    background-color: #24272B;
+    color: white;
+    font-style: italic;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
+
+.footer-section  a {
+    color: white;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-section section:nth-child(1){
+    float: left;
+    padding-left: 18px;
+}
+
+.footer-section section:nth-child(2){
+    float: right;
+    text-align: right;
+    padding-right: 18px;
+}
+
+.footer-section section:nth-child(3){
+    text-align: center;
+}

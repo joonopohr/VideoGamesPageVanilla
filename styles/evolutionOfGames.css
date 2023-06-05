@@ -1,0 +1,152 @@
+/*
+    Filename: evolutionOfGames.css
+    Author: Joono Chakma
+    Created: 18/03/23
+    Last Modified: 23/04/23
+    Description: This stylesheet refers to the Evolution of Games page
+*/   
+
+#contentSection > h1:first-child {
+  background-image: url("images/Controllers.jpg");
+  margin: 15px;
+  color: white;
+  font-size: 3.5em;
+  padding: 65px;
+}
+
+#contentSection > h1:nth-child(2) {
+  padding-left: 150px;
+}
+
+#contentSection > p {
+  padding-left: 150px;
+  margin-right: 200px;
+}
+
+section > h1:not(#contentSection > h1:nth-child(2), #contentSection > h1:first-child) {
+  color: black;
+  padding-left: 150px;
+  font-size: 1.8em;
+  padding-top: 20px;
+}
+
+figure {
+  position: relative;
+  text-align: center;
+  margin-left: 10px;
+}
+
+#ENIAC {
+  float: right;
+  padding-right: 30px;
+  clear: left;
+}
+
+#ENIAC > img {
+  height: 200px;
+  width: 400px;
+  box-shadow: 0 -4px 10px 2px;
+}
+
+#PONG {
+  float: right;
+  padding-right: 30px;
+}
+
+#PONG > img {
+  height: 200px;
+  width: 400px;
+  box-shadow: 0 -4px 10px 2px;
+}
+
+#Retro {
+  float: right;
+  padding-right: 30px;
+}
+
+#Retro > img {
+  height: 200px;
+  width: 400px;
+  box-shadow: 0 -4px 10px 2px;
+}
+
+#NES {
+  float: right;
+  padding-right: 30px;
+  padding-bottom: 50px;
+}
+
+#NES > img {
+  height: 200px;
+  width: 400px;
+  box-shadow: 0 -4px 10px 2px;
+}
+
+#video {
+  float: right;
+  padding-right: 30px;
+}
+
+#GAME {
+  float: right;
+  padding-right: 30px;
+}
+
+#GAME > img {
+  height: 190px;
+  width: 140px;
+  box-shadow: 0 -4px 10px 2px;
+}
+
+#CLUB {
+  float: right;
+  padding-right: 30px;
+}
+
+#CLUB > img {
+  height: 200px;
+  width: 350px;
+  box-shadow: 0 -4px 10px 2px;
+}
+
+#SUB {
+  float: right;
+  padding-right: 30px;
+}
+
+#SUB > img {
+  height: 200px;
+  width: 350px;
+  box-shadow: 0 -4px 10px 2px;
+}
+
+#video2 {
+  float: right;
+  padding-right: 30px;
+}
+
+#ANTI {
+  float: right;
+  padding-right: 30px;
+}
+
+#ANTI > img {
+  height: 200px;
+  width: 400px;
+  box-shadow: 0 -4px 10px 2px;
+}
+
+.textSection {
+  padding-bottom: 200px;
+}
+
+.textSection p, #contentSection p {
+  font-size: 1.2em;
+  color: black;
+  padding: 10px 250px 10px 150px;
+}
+
+.textSection p{
+  min-height: 200px;
+  width: 60%;
+}

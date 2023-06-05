@@ -1,0 +1,86 @@
+/*
+    Filename: gamingPlatform.css
+    Author: Joseph Linao
+    Created: 11/03/23
+    Last Modified: 9:00 PM 21/04/23
+    Description: This stylesheet refers to the gaming platform page
+*/   
+.subtopic a {  
+    margin-bottom: 10px;
+    margin: 20px;
+}
+
+li { 
+    font-size: larger;
+    margin-bottom: 10px; 
+    padding-top: 2px;
+}
+ 
+#MetalGear {
+    float: right;
+    padding-right: 30px; 
+  } 
+   
+#Author { 
+    float: right;
+    padding-right: 30px;   
+} 
+ 
+#Smoking { 
+    float: right;
+    padding-right: 30px;   
+} 
+ 
+article p { 
+    font-size:larger;
+} 
+ 
+#Chef { 
+    float: right; 
+    margin-right: 15px;
+} 
+ 
+#Gear { 
+    float: right; 
+    margin-right: 30px;
+}  
+ 
+#PONG {
+    float: right;
+    padding-right: 30px; 
+}  
+ 
+#WOW { 
+    float: left;
+    padding-right: 30px; 
+}
+ 
+#GOD { 
+    float: left; 
+    padding-right: 5px;  
+    border-color: purple; 
+    border-style: ridge; 
+    border-radius: 8px; 
+    box-shadow: 2px 2px grey;
+} 
+ 
+#mobile { 
+    float:center; 
+    padding-right: 30px; 
+} 
+ 
+#raid { 
+    float:center; 
+    padding-right: 30px; 
+    padding-left: 30px;  
+    background-origin: padding-box;
+} 
+ 
+#Statistics {
+    float: right;
+    padding-right: 30px; 
+  }  
+   
+#Statistics figcaption { 
+    text-align: center; 
+}

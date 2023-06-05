@@ -1,0 +1,95 @@
+/*
+    Filename: gameEngines.css
+    Author: Adnan Sayes
+    Created: 20/04/23
+    Last Modified: 28/04/23
+    Description: This stylesheet refers to webpages under vrARGaming 
+*/
+
+/* General CSS for all of the page*/
+p
+{
+  font-size: 1.1em;
+}
+
+li
+{
+  font-size: larger;
+  margin-bottom: 10px;
+  padding-top: 2px;
+}
+
+body, html
+{
+  height: 100%;
+}
+
+.bg
+{
+  /* The image used */
+  background-image: url("../styles/images/vr4.jpeg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+figure
+{
+  position: relative;
+  text-align: center;
+  margin-left: 10px;
+}
+
+#vrImage
+{
+  float: right;
+  position: relative;
+  padding-right: 10px;
+}
+
+#VR5, #VR6
+{
+    float: right;
+    padding-right: 30px;
+}
+ 
+#VR7
+{
+    float: right;
+    padding-right: 80px;
+}
+
+  #VR5 > img, #VR6 > img, #VR7 >img
+{
+    height: 300px;
+    width: 600px;
+    box-shadow: 0 -4px 10px 2px;
+}
+
+.firstSection
+{
+  font-size: 1.4em;
+  color: white;
+  text-align: center;
+  padding: 120px 250px 10px 150px;
+}
+
+.textSection
+{
+  font-size: 1.3em;
+  color: white;
+  padding: 10px 250px 10px 150px;
+  padding-bottom: 50px;
+}
+
+#PONG > img
+{
+  height: 200px;
+  width: 350;
+  box-shadow: 0 -4px 10px 2px;
+}

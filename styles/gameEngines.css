@@ -1,0 +1,113 @@
+/*
+    Filename: gameEngines.css
+    Author: Bennett Biju Mathew
+    Created: 11/03/23
+    Last Modified: 21/04/23
+    Description: This stylesheet refers to the pages within the gamesEngines folder. 
+*/
+
+/* General CSS for all of the page*/
+p {
+    font-size: 1.1em;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+/* CSS for the Game Engine Homepage webpage */
+.ge-image-holder {
+    border: 2px solid #3E78B2;
+}
+
+/* CSS for the Features of Game Engines webpage */
+.ge-feature-text {
+    height: 690px;
+}
+
+.ge-feature-text section:first-child {
+    margin-bottom: 25px;
+}
+
+.ge-feature-side-text {
+    float: right;
+    width: 30vw;
+    height: 100%;
+    border-left: 1px solid #4A525A;
+    padding-left: 45px;
+    margin-left: 45px;
+}
+
+.ge-feature-side-text li {
+    margin-left: 30px;
+}
+
+.ge-feature-side-text section:first-child {
+    margin-bottom: 25px;
+}
+
+.ge-feature-side-text figure {
+    margin-bottom: 10px;
+}
+
+.ge-feature-description {
+    text-align: center;
+}
+
+.ge-feature-description table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.ge-feature-description th{
+    background-color: #717980;
+}
+
+.ge-feature-description th, td{
+    padding: 5px;
+}
+
+.ge-feature-definition h2 {
+    text-align: center;
+}
+
+.ge-feature-definition dd {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.ge-feature-definition dt {
+    font-weight: bold;
+}
+
+/* CSS for Growth + Future of Game Engines webpage */
+
+.ge-future-image-holder {
+    padding-top: 45px;
+    padding-bottom: 25px;
+    text-align: center;
+    background-color: #3e78b2;
+    border-radius: 10px;;
+}
+
+.ge-future-text-image {
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: white;
+    display: inline-block;
+}
+
+.ge-future-text-image img {
+    height: 200px;
+    width: 400px;
+}
+
+.ge-future-text-image figcaption {
+    text-align: center;
+}

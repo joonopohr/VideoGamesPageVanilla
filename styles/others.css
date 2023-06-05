@@ -1,0 +1,395 @@
+/*
+    Filename: others.css
+    Author: Bennett Biju Mathew, Joseph Linao
+    Created: 11/03/23
+    Last Modified: 21/04/23
+    Description: This stylesheet refers to the pages within the others folder.
+*/   
+
+/* CSS related to everything within the others folder. */
+.flex {
+    display: flex;
+}
+
+.centerText {
+    text-align: center;
+}
+
+/*  CSS related to the biliography page - Done by Bennett Biju Mathew*/
+.bib-explanation {
+    padding: 25px;
+    text-align: center;
+}
+
+.bib-source-section {
+    flex: 1;
+    padding: 25px;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 0px 0px 20px 1px #888888 inset;
+}
+
+.bib-source {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bib-source ul {
+    margin-left: 30px;
+}
+
+.bib-source li {
+    padding-bottom: 10px;
+}
+
+/*  CSS related to the enhancements page - Done by Bennett Biju Mathew*/
+.enhance-section {
+    flex: 1;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.enhance-section:first-child {
+    margin-right: 20px;
+}
+
+.enhance-section article {
+    margin-bottom: 10px;
+}
+
+.enhance-section article a {
+    display: block;
+}
+
+.enhance-section h2 {
+    text-align: center;
+}
+
+/*  CSS related to the About Us - Done by Joseph Linao*/
+.info {
+    background-color: gray;  
+    padding: 25px;
+    flex: 1;
+}
+
+.center { 
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 25px; 
+    margin-left: 100px; 
+    margin-right: 100px;
+}   
+ 
+.center h1 {  
+    font-family: 'Franklin Gothic Medium';
+    padding: 10px;
+}
+ 
+.faculties {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.unit {
+    margin: 25px;
+    width: 200px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.unit img {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.unit p {
+    text-align: left;
+    margin: 2px;
+}
+
+.unit p:first-of-type {
+    font-weight: bolder;
+    margin-bottom: 5px;
+} 
+  
+.wrapper h2 {
+    text-align: center;
+} 
+ 
+.Revengeance { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+/*  CSS related to the Quiz Page - Done by Joono Chakma*/
+.quiz-explaination h1 {
+    text-align: center;
+  }
+  
+  #introParagraph,
+  #introHeading {
+    text-align: center;
+    margin: 25px;
+  }
+  
+  .user-info {
+    background-color: #3e78b2;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 200px;
+    text-align: center;
+  }
+  
+  .user-info > h1:not(.questions) {
+    position: relative;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 40px;
+    text-align: right;
+  }
+  
+  .questions {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+  }
+  
+  #q2 {
+    color: white;
+    position: relative;
+    top: 70px;
+  }
+  
+  /* student id */
+  .input-container {
+    --c-text: rgb(50, 50, 80);
+    --c-bg: rgb(252, 252, 252);
+    --c-outline: rgb(55, 45, 190);
+    width: 30%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    padding-left: 10em;
+  }
+  
+  .input-field {
+    padding: 0.5em 0.75em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    border: 1px solid var(--c-border, #54ae54);
+    color: var(--c-text);
+    font-size: 1rem;
+    letter-spacing: 0.1ch;
+    width: 100%;
+  }
+  
+  .input-field:not(:placeholder-shown) + .input-label {
+    transform: translateY(-220%);
+    opacity: 1;
+  }
+  
+  .input-field:invalid {
+    --c-border: rgb(230, 85, 60);
+    --c-text: rgb(230, 85, 60);
+    --c-outline: rgb(230, 85, 60);
+  }
+  
+  .input-field:is(:disabled, :read-only) {
+    --c-border: rgb(150, 150, 150);
+    --c-text: rgb(170, 170, 170);
+  }
+  
+  .input-field:is(:focus, :focus-visible) {
+    outline: 2px solid var(--c-outline);
+    outline-offset: 2px;
+  }
+  
+  .input-label {
+    --timing: 200ms ease-in;
+    position: relative;
+    left: 0;
+    top: -80px;
+    transition: transform var(--timing), opacity var(--timing);
+    transform: translateY(-50%);
+    opacity: 0;
+    color: var(--c-text);
+    font-weight: 500;
+    color: white;
+  }
+  /*dropdown box question*/
+  .box {
+    position: absolute;
+  }
+  
+  .box select {
+    background-color: white;
+    color: rgb(84, 120, 174);
+    padding: 12px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+  }
+  
+  .box::before {
+    content: "\f13a";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgb(84, 120, 174, 0.5);
+    background-color: rgb(84, 120, 174, 0.1);
+    pointer-events: none;
+  }
+  
+  .box:hover::before {
+    color: rgb(84, 120, 174 );
+    background-color: rgb(84, 120, 174, 0.2);
+  }
+  
+  .box select option {
+    padding: 30px;
+  }
+  
+  /*radio buttons*/
+  .container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    top: 80px;
+    padding-bottom: 40px;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .container-1 label {
+    text-align: justify;
+    padding-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .option-container {
+    display: flex;
+    margin-top: 10px;
+  }
+  .option-container input {
+    height: 1.5em;
+    border: 2px solid #444;
+    border-radius: 50%;
+    margin-right: 2.5em;
+    transition: 0.25s ease;
+  }
+  
+  /*checkboxes*/
+  
+  #question3 .questions {
+    position: relative;
+    text-align: left;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 160px;
+  }
+  .checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    top: 80px;
+    padding-bottom: 80px;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .checkbox-container input {
+    background-color: red;
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: 160px;
+    margin-right: 0.375em;
+  }
+  
+  /* number */
+  #question4 > .questions {
+    
+      position: relative;
+    float: left;
+    padding-left: 160px;
+    padding-top: 10px;
+    
+  }
+  
+   #question4 > div {
+  position: relative;
+    float: left;
+    left: -280px;
+    top: 60px;
+  }
+  
+  #pong,
+  #gameEngineUI {
+    position: relative;
+    float: right;
+    top: 300px;
+    padding-right: 50px;
+  }
+  
+  #gameEngineUI {
+    height: 200px;
+    width: 200px;
+  }
+  
+  /* question 5 */
+  
+  #question5 {
+      position: relative;
+      float: left;
+      padding-right: 40px;
+      top: 20px;
+  }
+  
+  /*button*/
+  .submit {
+    padding: 12.5px 30px;
+    position: relative;
+    border: 0;
+    border-radius: 100px;
+    background-color: #54ae54;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    float: right;
+    margin-top: 155px;
+    
+  }
+  
+  .submit:hover {
+    background-color: #6fff9a;
+    box-shadow: 0 0 20px #6fc5ff50;
+  }
+  
+  .submit:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+  }
